@@ -1,4 +1,4 @@
-# 1partCarbon Daily Pivotal Emailer
+# Daily Pivotal Emailer
 
 ## Getting started
 
