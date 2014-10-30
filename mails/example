@@ -1,0 +1,30 @@
+---
+name: Secret
+id: 12345
+subject: Secret Progress Report
+from: email@me.bro
+to:
+  - client@example.xom
+debug: true
+---
+Hello All,
+
+Daily update for the <%= meta['name'] %> project
+
+In Progress:
+
+<%= output_stories(finished) %>
+<%= output_stories(started) %>
+
+Awaiting Acceptance:
+<%= output_stories(delivered) %>
+
+Blockers:
+<%= output_stories(blocked) %>
+
+Questions:
+<%= output_stories(questions) %>
+
+Thanks,
+
+Super Team
